@@ -1,0 +1,62 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* account_bank_statement_import_camt54
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-17 09:07+0000\n"
+"PO-Revision-Date: 2020-01-17 09:07+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_bank_statement_import_camt54
+#: model:ir.model,name:account_bank_statement_import_camt54.model_account_bank_statement_import_camt_parser
+msgid "Account Bank Statement Import CAMT parser"
+msgstr ""
+
+#. module: account_bank_statement_import_camt54
+#: model:ir.model,name:account_bank_statement_import_camt54.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Bankauszug"
+
+#. module: account_bank_statement_import_camt54
+#: sql_constraint:account.bank.statement:0
+msgid "Bank statement must be unique"
+msgstr "Kontoauszugsbezeichnung muss eindeutig sein."
+
+#. module: account_bank_statement_import_camt54
+#: code:addons/account_bank_statement_import_camt54/models/parser.py:40
+#, python-format
+msgid "Config parameter `isr_partner_ref` is wrong.\n"
+"It must be in format `i[,n]` \n"
+"`i` and `n` must be integers.\n"
+"e.g. \"13,6\""
+msgstr "Die Konfiguration des Parameters `isr_partner_ref` ist falsch.\n"
+"Das zu respektierende Format ist `i[,n]` \n"
+"`i` und `n` müssen numerisch sein.\n"
+"z.B. \"13,6\""
+
+#. module: account_bank_statement_import_camt54
+#: code:addons/account_bank_statement_import_camt54/models/parser.py:25
+#, python-format
+msgid "Config parameter `isr_partner_ref` is wrong.\n"
+"It must be in format `i[,n]` \n"
+"where `i` is the position of the first digit and\n"
+"`n` the number of digit in the reference, by default 6.\n"
+"e.g. \"13,6\""
+msgstr "Die Konfiguration des Parameters `isr_partner_ref` ist falsch.\n"
+"Das zu respektierende Format ist `i[,n]` \n"
+"`i` und `n` müssen numerisch sein.\n"
+"z.B. \"13,6\""
+
+#. module: account_bank_statement_import_camt54
+#: model:ir.model,name:account_bank_statement_import_camt54.model_account_bank_statement_import
+msgid "Import Bank Statement"
+msgstr "Bankauszug importieren"
+
